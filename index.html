@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum de Claudia</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!--<img src="image/logo.png" class="logo" alt="logo marca">-->
+                <h1 class="logo"><span>C</span>laudia.</h1>
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Formação</a></li>
+                    <li><a href="#services">Experiência</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <P>UI/UX Designer</P>
+                <h1>Oi, Eu sou a <span>Claudia <br> Carvalho</span> do Brasil</h1>
+            </div>
+        </div>
+    </div>
+<!----------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/foto1.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Sobre Mim</h1>
+                    <p>Sou dinamica, amigavel, organizada, produtiva, responsavel, tenho satisfação em aprendar coisas novas,  possuo capacidade de liderança, extremamente respeitosa a liderança que me for designada aptidão para trabalhar com metas e sobre pressão, estremamente calma e resiliente, tenho disponibilidade para inicio imediato.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Habilidades</p>
+                        <p class="tab-links" onclick="opentab('experiencia')">Experiência</p>
+                        <p class="tab-links" onclick="opentab('educacao')">Educação Formal</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Secretária de advocacia</span> <br>desenvolvendo atividades de organização e preparação de agenda, preparação de processos, atendimento de clientes, arquivamento de documentos em geral. </li>
+                            <li><span>cuidadora de idosos</span> <br>experiência em cuidar, acompanhar, alimentar e dar banho. </li>
+                            <li><span>Atendente</span> <br>Simpatia e paciência no atendimento rapidez e dinamismo nas atividades.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="experiencia">
+                        <ul>
+                            <li><span>2022 - 2022</span> <br>costureira  </li>
+                            <li><span>2018 - 2021</span> <br>Secretária  </li>
+                            <li><span>2014 - 2018</span> <br>Cuidadora de Idosa </li>
+                            <li><span>2008 - 2014</span> <br>auxiliar de enfermagem </li>
+                        </ul>
+                            <li><span>2008</span> <br>Dona de Casa </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"   id="educacao">
+                        <ul>
+                            <li><span>2006</span> <br>Escola de Enfermagem do Hospital sagrada Familia </li>
+                            <li><span>1995</span> <br>2ª grau no Centro de Estudos Caxiense </li>
+                            <li><span>1992</span> <br>CECR Escola classe 1 </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!----------------------serviçes------------------- -->
+   <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Minha Experiência</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-user-nurse"></i>
+                    <h2>Auxiliar de Enfermagem</h2>
+                    <p>Larga experiencia em cuidar de pessoas fazer a higienização de pacientes e ferimentos, transporte em cadeira de rodas, aplicação de medicação, injeção, </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-scale-balanced"></i>
+                    <h2>Secretária de advogado</h2>
+                    <p>Preparava e organizava a agenda, atendia clientes pessoalmente e por telefone, preparar documentação para instruir processo, confecção de peças processuais, controle de orçamento e pagamento de contas.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-person-walking"></i>
+                    <h2>Atendente diverso</h2>
+                    <p>Simpatia e paciência no atendimento rapidez e dinamismo nas atividades.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+   </div>
+<!---------------------portfolio------------------------>
+
+<!---------------------------contact--------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>email</p>
+                <p><i class="fa-solid fa-square-phone"></i>telefone</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="'submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email">
+                    <textarea name="message" rows="6" placeholder="your message"> </textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Feito por <i class="fa-solid fa-scale-balanced"></i>guilherme teixeira de sena</p>
+    </div>
+</div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzCkn7Rg0SvShQUWW07LR5kFqOBFYudzuUnDy9DEhqdf_3ku14gX7V9hIfEBq0wGvPK/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
